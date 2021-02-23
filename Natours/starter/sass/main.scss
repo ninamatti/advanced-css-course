@@ -1,11 +1,8 @@
-/*
-COLORS:
 
-Light green: #7ed56f
-Medium green: #55c57a
-Dark green: #28b485
+$color-primary:rgb(252, 220, 41);
+$color-primary-light: rgb(248, 237, 210);
+$color-primary-dark: rgb(220, 198, 150);
 
-*/
 
 *,
 *::after,
@@ -36,7 +33,7 @@ body {
         linear-gradient(
             to right bottom,
             rgba(255, 248, 228, 0.1),
-            rgba(220,200,150, 0.6)), 
+            rgba($color-primary-light, 0.6)), 
         url(../img/hero_valhalla_big.jpg);
     background-size: cover;
     background-position: top;
