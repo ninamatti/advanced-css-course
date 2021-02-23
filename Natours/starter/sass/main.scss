@@ -1,7 +1,9 @@
 
-$color-primary:rgb(252, 220, 41);
-$color-primary-light: rgb(248, 237, 210);
-$color-primary-dark: rgb(220, 198, 150);
+$color-primary:#FCDC29;
+$color-primary-light: #F8EDD2;
+$color-primary-dark: #DCC696;
+
+$color-gray-dark: #777;
 
 
 *,
@@ -21,7 +23,7 @@ body {
     font-weight: 400;
     /* font-size: 16px */
     line-height: 1.7;
-    color: #777;
+    color: $color-gray-dark;
     padding: 3rem;
 
     box-sizing: border-box;
@@ -32,7 +34,7 @@ body {
     background-image: 
         linear-gradient(
             to right bottom,
-            rgba(255, 248, 228, 0.1),
+            rgba(255, 251, 241, 0.1),
             rgba($color-primary-light, 0.6)), 
         url(../img/hero_valhalla_big.jpg);
     background-size: cover;
@@ -58,6 +60,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
 }
 
 .heading-primary {
@@ -167,7 +170,7 @@ body {
 
 .btn--white {
     background-color: #fff;
-    color:#777;
+    color:$color-gray-dark;
 }
 
 .btn--white::after {
